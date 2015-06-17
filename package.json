@@ -1,0 +1,30 @@
+{
+  "name": "webpack_develop",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --port 3000 --inline",
+    "hot": "webpack-dev-server --hot --progress --colors --port 3000 --inline",
+  },
+  "dependencies": {
+    "URIjs": "^1.15.1",
+    "bower": "^1.4.1",
+    "compass-mixins": "^0.12.7",
+    "css-loader": "^0.14.5",
+    "jquery": "2.1.4",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^0.4.2",
+    "style-loader": "^0.12.3",
+    "webpack": "1.9.11",
+    "webpack-dev-server": "1.9.0"
+  },
+  "keywords": [
+    "webpack",
+    "jquery",
+    "URIjs",
+    "sass",
+    "compass"
+  ],
+  "author": "Sheng",
+  "license": "MIT"
+}

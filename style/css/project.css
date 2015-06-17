@@ -1,0 +1,152 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+html {
+  font-size: 100%;
+  line-height: 1.5em; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background-color: rgba(221, 221, 221, 0.9); }
+
+body {
+  height: auto; }
+
+input.focus, textarea.focus {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+/* ===============================
+	Variable Color Palette
+	Author: Sheng
+	最後更新日期：2015 / 02 / 13
+================================*/
+/* ===============================
+	Variable Font Style
+	Author: Sheng
+	最後更新日期：2015 / 02 / 13
+================================*/
+/*
+
+1. Centering Mixin
+
+ */
+/*
+
+1. omitted-words
+2. font-size($size)
+3. line-height($size)
+
+ */
+/*
+
+  Button Mixin
+
+ */
+.button {
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0 6px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #000;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.button i {
+  font-size: 18px; }
+.button.pinterest {
+  background-color: #B81621; }
+  .button.pinterest:hover {
+    background-color: #8a1119;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s; }
+.button.google {
+  background-color: #E93F2E; }
+  .button.google:hover {
+    background-color: #ce2616;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s; }
+.button.facebook {
+  background-color: #306199; }
+  .button.facebook:hover {
+    background-color: #244872;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s; }
+.button.twitter {
+  background-color: #26C4F1; }
+  .button.twitter:hover {
+    background-color: #0eaad6;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s; }
+
+/* ===============================
+	Rewrite plugin 
+	Author: Sheng
+	最後更新日期：2015 / 04 / 10
+================================*/

@@ -1,0 +1,19 @@
+{
+  "name": "CGM",
+  "version": "0.0.0",
+  "authors": [
+    "Sheng"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-validation": "~1.13.1"
+  }
+}

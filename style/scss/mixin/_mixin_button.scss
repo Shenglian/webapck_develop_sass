@@ -1,0 +1,59 @@
+/*
+
+  Button Mixin
+
+ */
+
+%button-basic {
+	display: inline-block;
+	margin: 0 3px;
+	padding: 0 6px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #000;
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+	@include border-radius(5px);
+}
+
+.button {
+	@extend %button-basic;
+	i {
+		font-size: 18px;
+	}
+
+	&.pinterest {
+		background-color: #B81621;
+	&:hover {
+			background-color: darken(#B81621, 10%);
+			@include transition(all, .3s);
+		}
+	}
+
+	&.google {
+		background-color: #E93F2E;
+	&:hover {
+		  	background-color: darken(#E93F2E, 10%);
+		  	@include transition(all, .3s);
+		}
+	}
+
+	&.facebook {
+		background-color: #306199;
+	&:hover {
+			background-color: darken(#306199, 10%);
+			@include transition(all, .3s);
+		}
+	}
+
+	&.twitter {
+		background-color: #26C4F1;
+	&:hover {
+			background-color: darken(#26C4F1, 10%);
+			@include transition(all, .3s);
+		}
+	}
+  
+}

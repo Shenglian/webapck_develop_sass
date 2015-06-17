@@ -1,0 +1,30 @@
+/*
+
+1. omitted-words
+2. font-size($size)
+3. line-height($size)
+
+ */
+
+// 1. 多餘文字變成....
+%omitted-words {
+	overflow : hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+
+@mixin omitted-words {
+  @extend %omitted-words;
+}
+
+// 2. Font Sizes (REMs with PX fallback for older browsers)
+@mixin font-size($size) {
+    font-size: $size + px;
+    font-size: ($size/16) + rem;
+}
+
+// 3. Line Height Sizes (REMs with PX fallback for older browsers)
+@mixin line-height($size) {
+    line-height: $size + px;
+    line-height: ($size/16) + rem;
+}

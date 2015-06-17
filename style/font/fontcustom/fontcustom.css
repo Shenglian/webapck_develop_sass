@@ -1,0 +1,65 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_be201618c650de6fe654b662ad8a4320.eot");
+  src: url("./fontcustom_be201618c650de6fe654b662ad8a4320.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_be201618c650de6fe654b662ad8a4320.woff") format("woff"),
+       url("./fontcustom_be201618c650de6fe654b662ad8a4320.ttf") format("truetype"),
+       url("./fontcustom_be201618c650de6fe654b662ad8a4320.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_be201618c650de6fe654b662ad8a4320.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-arrow-down:before,
+.icon-arrow-down-copy-2:before,
+.icon-arrow-left:before,
+.icon-arrow-right:before,
+.icon-arrow-up:before,
+.icon-camera:before,
+.icon-ck:before,
+.icon-facebook:before,
+.icon-goback:before,
+.icon-google:before,
+.icon-ticket:before,
+.icon-twitter:before,
+.icon-x:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-arrow-down:before { content: "\f131"; }
+.icon-arrow-down-copy-2:before { content: "\f132"; }
+.icon-arrow-left:before { content: "\f133"; }
+.icon-arrow-right:before { content: "\f134"; }
+.icon-arrow-up:before { content: "\f135"; }
+.icon-camera:before { content: "\f136"; }
+.icon-ck:before { content: "\f137"; }
+.icon-facebook:before { content: "\f138"; }
+.icon-goback:before { content: "\f139"; }
+.icon-google:before { content: "\f13a"; }
+.icon-ticket:before { content: "\f13b"; }
+.icon-twitter:before { content: "\f13c"; }
+.icon-x:before { content: "\f13d"; }

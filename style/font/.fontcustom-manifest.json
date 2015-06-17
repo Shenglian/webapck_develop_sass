@@ -1,0 +1,75 @@
+{
+  "checksum": {
+    "previous": "a042ec3bfc08e4ebc39a78bae7abf0a6158606421ecffdcaab17ba2ef887b620",
+    "current": "a042ec3bfc08e4ebc39a78bae7abf0a6158606421ecffdcaab17ba2ef887b620"
+  },
+  "fonts": [
+    "fontcustom/fontcustom_a042ec3bfc08e4ebc39a78bae7abf0a6.ttf",
+    "fontcustom/fontcustom_a042ec3bfc08e4ebc39a78bae7abf0a6.svg",
+    "fontcustom/fontcustom_a042ec3bfc08e4ebc39a78bae7abf0a6.woff",
+    "fontcustom/fontcustom_a042ec3bfc08e4ebc39a78bae7abf0a6.eot"
+  ],
+  "glyphs": {
+    "person": {
+      "codepoint": 61697,
+      "source": "/Users/sheng/sheng/font/person.svg"
+    },
+    "skill": {
+      "codepoint": 61698,
+      "source": "/Users/sheng/sheng/font/skill.svg"
+    },
+    "star": {
+      "codepoint": 61703,
+      "source": "/Users/sheng/sheng/font/star.svg"
+    },
+    "task": {
+      "codepoint": 61699,
+      "source": "/Users/sheng/sheng/font/task.svg"
+    },
+    "timeline": {
+      "codepoint": 61700,
+      "source": "/Users/sheng/sheng/font/timeline.svg"
+    },
+    "tool": {
+      "codepoint": 61701,
+      "source": "/Users/sheng/sheng/font/tool.svg"
+    },
+    "used": {
+      "codepoint": 61702,
+      "source": "/Users/sheng/sheng/font/used.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": "/Users/sheng/sheng/font",
+      "vectors": "/Users/sheng/sheng/font"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "fontcustom",
+      "fonts": "fontcustom",
+      "preview": "fontcustom"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "skip_first": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "fontcustom/fontcustom.css",
+    "fontcustom/fontcustom-preview.html"
+  ]
+}
