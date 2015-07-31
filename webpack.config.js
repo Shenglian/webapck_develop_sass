@@ -9,8 +9,9 @@ var config = {
 	    this.module.noParse.push(new RegExp('^' + name + '$'));
 	},
 	entry: {
-		pages: ["./js/pages/pages.js"],
-		vendors: ['jquery','jquery-validation', 'URIjs']
+		index: ["./js/components/index.js"],
+		detail: ["./js/components/detail.js"],
+		common: ['jquery','jquery-validation', 'URIjs']
 	},
 	resolve :{alias: {}},
 	output: {
@@ -21,16 +22,22 @@ var config = {
   	module: {
   		noParse: [],
   		loaders:[
+	  		{
+	  			test : /\.(woff|ttf|svg|eot|jpg|png|git)$/, 
+	  			loader: 'url-loader?limit=8000'
+	  		},
   			{
-  			  test   : /.scss$/,
-  			  loader : 
-  			     'style-loader!css-loader!sass-loader?includePaths[]=' 
-  			      + path.resolve(__dirname, './node_modules/compass-mixins/lib')
-  			}
+  			  	test   : /.scss$/,
+  			  	loader : 'style-loader!css-loader!sass-loader?includePaths[]=' + path.resolve(__dirname, './node_modules/compass-mixins/lib')
+  			},
+  			{
+		        test: /\.js$/,
+		        loader: 'babel'
+		    }
   		]
 	},
 	plugins: [
-	    new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
+	    new webpack.optimize.CommonsChunkPlugin('common', 'common.js')
 	]
 };
 
